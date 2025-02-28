@@ -1,0 +1,15 @@
+
+Jan 16, 2025 21:28:54.23 NEW SESSION
+Jan 16, 2025 21:28:54.23 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 16, 2025 21:28:54.23 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jan 16, 2025 21:29:48.28 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 16, 2025 21:29:48.32 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jan 16, 2025 22:29:10.97 [28120:14304:0116/222910.943:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+
+Jan 17, 2025 07:09:23.63 NEW SESSION
+Jan 17, 2025 07:09:23.64 Created TensorFlow Lite XNNPACK delegate for CPU.
+Jan 17, 2025 07:09:23.65 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+Jan 17, 2025 07:20:03.55 [5796:24172:0117/072003.550:ERROR:device_event_log_impl.cc(201)] [07:20:03.550] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 17, 2025 07:20:40.06 [5796:24172:0117/072040.069:ERROR:device_event_log_impl.cc(201)] [07:20:40.068] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Jan 17, 2025 07:21:37.71 [5796:24172:0117/072137.719:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+Jan 17, 2025 07:21:54.42 [5796:24172:0117/072154.426:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost

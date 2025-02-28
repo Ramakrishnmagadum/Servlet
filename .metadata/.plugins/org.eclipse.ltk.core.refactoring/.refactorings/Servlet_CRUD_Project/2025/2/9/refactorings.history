@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;StudentsBean.java&apos; to &apos;JSP_CRUD_Project/src/main/java/CRUD_Project&apos;&#x0D;&#x0A;- Original project: &apos;Servlet_CRUD_Project&apos;&#x0D;&#x0A;- Destination element: &apos;JSP_CRUD_Project/src/main/java/CRUD_Project&apos;&#x0D;&#x0A;- Original element: &apos;CRUD.StudentsBean.java&apos;" description="Copy compilation unit" destination="=JSP_CRUD_Project/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;CRUD_Project" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;CRUD{StudentsBean.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1740706882183" units="1" version="1.0"/>
+</session>

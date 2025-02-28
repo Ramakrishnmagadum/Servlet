@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@page import="CRUD_Project.DAO" %>
+    <%@page import="CRUD_Project.StudentsBean" %>
+    <%@page import="java.util.List" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>view User</title>
+</head>
+<body>
+
+
+<% 
+List<StudentsBean> list=DAO.getAllRecords(); 
+
+%>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<!-- Servlet Declaration -->
+
+	<servlet>
+		<servlet-name>servlet1</servlet-name>
+		<servlet-class>Stateless_Problem.Servlet1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>servlet2</servlet-name>
+		<servlet-class>Stateless_Problem.Servlet2</servlet-class>
+	</servlet>
+
+
+	<!-- Cookies -->
+	<servlet>
+		<servlet-name>cookieservlet1</servlet-name>
+		<servlet-class>Cookies_Tracking.Cookies_Servlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>cookieservlet2</servlet-name>
+		<servlet-class>Cookies_Tracking.Cookies_Servlet2</servlet-class>
+	</servlet>
+
+	<!-- Url Rewriting -->
+	<servlet>
+		<servlet-name>UrlRewriting1</servlet-name>
+		<servlet-class>Url_Rewriting.Url_Rewriting_Servlet1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UrlRewriting2</servlet-name>
+		<servlet-class>Url_Rewriting.Url_Rewriting_Servlet2</servlet-class>
+	</servlet>
+
+	<!-- Hidden Form Field -->
+	<servlet>
+		<servlet-name>HiddenForm1</servlet-name>
+		<servlet-class>Hidden_Form_Field.Hidden_Form_Field_Servlet1</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>HiddenForm2</servlet-name>
+		<servlet-class>Hidden_Form_Field.Hidden_Form_Field_Servlet2</servlet-class>
+	</servlet>
+
+	<!-- Http Session -->
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>HttpSession_Project.LoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>LogOutServlet</servlet-name>
+		<servlet-class>HttpSession_Project.LogOutServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ProfilePageServlet</servlet-name>
+		<servlet-class>HttpSession_Project.ProfilePageServlet</servlet-class>
+	</servlet>
+	
+	
+	
+
+	<!-- Mapping the Servlet -->
+
+	<servlet-mapping>
+		<servlet-name>servlet1</servlet-name>
+		<url-pattern>/Servlet1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>servlet2</servlet-name>
+		<url-pattern>/Servlet2</url-pattern>
+	</servlet-mapping>
+
+	<!-- Cookies -->
+	<servlet-mapping>
+		<servlet-name>cookieservlet1</servlet-name>
+		<url-pattern>/CookieServlet1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>cookieservlet2</servlet-name>
+		<url-pattern>/CookieServlet2</url-pattern>
+	</servlet-mapping>
+
+	<!-- Url Rewriting -->
+	<servlet-mapping>
+		<servlet-name>UrlRewriting1</servlet-name>
+		<url-pattern>/UrlRewriting1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UrlRewriting2</servlet-name>
+		<url-pattern>/UrlRewriting2</url-pattern>
+	</servlet-mapping>
+
+	<!-- Hidden Form -->
+	<servlet-mapping>
+		<servlet-name>HiddenForm1</servlet-name>
+		<url-pattern>/HiddenForm1</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>HiddenForm2</servlet-name>
+		<url-pattern>/HiddenForm2</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- Http Session -->
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>LogOutServlet</servlet-name>
+		<url-pattern>/LogOutServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ProfilePageServlet</servlet-name>
+		<url-pattern>/ProfilePageServlet</url-pattern>
+	</servlet-mapping>
+
+	<!-- <welcome-file-list> -->
+	<!-- <welcome-file>Cookies.html</welcome-file> -->
+	<!-- </welcome-file-list> -->
+
+	<welcome-file-list>
+		<welcome-file>Url_Rewriting.html</welcome-file>
+	</welcome-file-list>
+</web-app>
