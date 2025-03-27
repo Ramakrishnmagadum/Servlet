@@ -1,0 +1,56 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>register Form</display-name>
+<servlet>
+<servlet-name>servlet1</servlet-name>
+<servlet-class>Filter.Servlet1</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>servlet2</servlet-name>
+<servlet-class>Filter.Servlet2</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>servletcount</servlet-name>
+<servlet-class>Filter_Example.ServletRequestCount</servlet-class>
+</servlet>
+
+
+
+<servlet-mapping>
+<servlet-name>servlet1</servlet-name>
+<url-pattern>/Servlet1</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>servlet2</servlet-name>
+<url-pattern>/Servlet2</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>servletcount</servlet-name>
+<url-pattern>/requestcountservlet</url-pattern>
+</servlet-mapping>
+
+<filter>
+<filter-name>filter</filter-name>
+<filter-class>Filter.MyFilter</filter-class>
+</filter>
+
+<filter-mapping>
+<filter-name>filter</filter-name>
+<url-pattern>/*</url-pattern>
+</filter-mapping>
+
+<filter>
+<filter-name>filter2</filter-name>
+<filter-class>Filter_Example.Filter_Request_Count</filter-class>
+</filter>
+
+<filter-mapping>
+<filter-name>filter2</filter-name>
+<url-pattern>/requestcountservlet</url-pattern>
+</filter-mapping>
+
+	
+</web-app>

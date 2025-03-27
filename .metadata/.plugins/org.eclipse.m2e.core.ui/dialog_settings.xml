@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Ram_Coding\servletdemo\Servlet_Filter\pom.xml"/>
 			<item value="D:\Ram_Coding\servletdemo\Servlet_Concept\pom.xml"/>
 			<item value="D:\Ram_Coding\servletdemo\Servlet_Concept"/>
 		</list>
@@ -27,6 +28,11 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.Servlet_TechBlog_Project"/>
+			<item value="Filter.Servlet_Filterr"/>
+			<item value="Filter.Servlet_Filter"/>
+			<item value="Servlet_Filter.Filter"/>
+			<item value="Servlet_Filter.Servlet_Filter"/>
 			<item value="JSP_CRUD_Project.JSP_CRUD_Project"/>
 			<item value="JSP_Project.JSP_Project"/>
 			<item value="Servlet_CRUD_Project.Servlet_CRUD_Project"/>
@@ -34,6 +40,9 @@
 			<item value="Servlet_Demo_Project.Servlet_Demo"/>
 		</list>
 		<list key="groupId">
+			<item value="com"/>
+			<item value="Filter"/>
+			<item value="Servlet_Filter"/>
 			<item value="JSP_CRUD_Project"/>
 			<item value="JSP_Project"/>
 			<item value="Servlet_CRUD_Project"/>
@@ -41,6 +50,10 @@
 			<item value="Servlet_Demo_Project"/>
 		</list>
 		<list key="artifactId">
+			<item value="Servlet_TechBlog_Project"/>
+			<item value="Servlet_Filterr"/>
+			<item value="Servlet_Filter"/>
+			<item value="Filter"/>
 			<item value="JSP_CRUD_Project"/>
 			<item value="JSP_Project"/>
 			<item value="Servlet_CRUD_Project"/>
